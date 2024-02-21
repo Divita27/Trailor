@@ -1,0 +1,20 @@
+.signup-button {
+  background-color: transparent; 
+  color: white; /* Initial text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding similar to the sign-in button */
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s; /* Transition for color change */
+}
+
+.signup-button:hover {
+  color: #f1831c; /* Text color changes on hover */
+}
+
+.signup-button:active {
+  color: #f95700; /* Text color for active/click effect */
+}
+

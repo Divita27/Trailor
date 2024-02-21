@@ -1,0 +1,108 @@
+/* InputField.css
+.input-fields-container {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin: 0 auto; 
+  }
+  
+  .input-field {
+    background: #2c2c2c; 
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: left; 
+  }
+  
+  .input-field label {
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    color: white;
+  }
+  
+  .input-wrapper .icon {
+    position: absolute;
+    right: 10px;
+    color: white;
+  }
+  
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+  
+   */
+
+/* InputField.css */
+.input-fields-container {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin: 0 auto; 
+}
+
+.input-field {
+  background: #2c2c2c; 
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px; 
+}
+
+/* Adjust the label to have the styles that your placeholders currently have */
+.input-field label {
+  color: #a1a1a4; /* Placeholder color */
+  font-size: 13px; /* Placeholder font size */
+  padding-top: 5px;
+  margin-bottom: 5px;
+  text-align: left; /* Align text to the left */
+  display: block; 
+  padding-left: 15px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Adjust the input to have the styles that your labels currently have */
+.input-wrapper input {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: white; /* Label color */
+  font-weight: bold; /* Label font weight */
+  padding-left: 15px;
+}
+
+/* Ensure the placeholder text looks like the label */
+.input-wrapper input::placeholder {
+  color: white; /* Label color */
+  font-weight: bold; /* Label font weight */
+  opacity: 1; /* Fix for browsers that render placeholder with lower opacity */
+}
+
+.input-wrapper .icon {
+  position: absolute;
+  right: 10px;
+  color: white;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}

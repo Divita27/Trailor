@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.logo-container {
+  display: flex;
+  align-items: center; 
+  justify-content: left;
+}
+
+.logo-image {
+  width: 100px; 
+  height: 100px; 
+  margin: 0px; 
+}
+
+.logo-text {
+  font-family: 'Satisfy', cursive; 
+  /* font-family: "Oleo Script Swash Caps", system-ui; */
+  font-weight: bold;
+  font-size: 25px;
+  color: aliceblue;
+}
