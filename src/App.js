@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignInPage from './Pages/SignIn';
 import LoginPage from './Pages/LoginPage';
 import SignUpForm from './Pages/SignUpForm';
+import Test from './Pages/Test';
 import ExpandableCard from './Components/ExpandableCard';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<SignInPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/form" element={<SignUpForm />} />
+          <Route path="/test" element={<Test />} />
         </Routes>
       </div>
     </Router>
